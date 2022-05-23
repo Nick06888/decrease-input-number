@@ -7,3 +7,6 @@
 ### 5. In the main file (Program.cs) delete the code and replace it with this code using the shortcut Ctrl + V (Paste) and where there's namespace Indietro replace                      Indietro with the name of your project
 ### 6. Now all should work, click Run and enjoy!
 ![dajedetaccodajedepunta](https://www.accademiapnl.com/wp-content/uploads/2018/10/cosa-e-la-programmazione-neuro-linguistica.jpg)
+
+
+####THIS PRODUCT IS UNDER MIT LICENSE!
