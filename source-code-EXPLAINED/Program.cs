@@ -1,4 +1,4 @@
-﻿//auto-generated code start
+//auto-generated code start
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -49,16 +49,22 @@ namespace Indietro
                 Console.ReadKey();//waits for user key (enter, space...)
                 return;//it stops the program process
             }
-            Console.BackgroundColor = ConsoleColor.DarkCyan; //changes font color
-            Console.WriteLine(a);//writes the number you typed 
-            Console.BackgroundColor = ConsoleColor.Black; //resets font color
+
             //      - THE MOST IMPORTANT PART IN THE CODE -
             // --------------------------------------------------
             //for cycle which prints the number backwards until 0:
-            // 1) We declare the long b which is a - 1, suppose we typed the number 10, b will be 10 - 1
+            // 1) We declare the long b which is equal to a, suppose we typed the number 10, long b will be 10
             // 2) We declare when the program stops, in this case it will stop when b will be minor or equal to a (never), so we created an infinite loop
             // 3) We declare what the program must do when it's in the cycle, in this case every time the cycle restarts it will subtract 1 to long b
-            for (long b = a - 1; b <= a; b--)
+            // PS: We can also use:
+            // while (true) {
+            //
+            //    if (b == 0) {
+            //       ...
+            //       replace return; with break;
+            //    }
+            // }
+            for (long b = a; b <= a; b--)
             {
                 
                 if (b == 0)
