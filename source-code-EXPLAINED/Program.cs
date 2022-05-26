@@ -78,7 +78,7 @@ namespace Indietro
                     Console.ReadKey();//waits for user key (enter, space...)
                     return;//if b is equal to 0 it stops the program process
                 }
-                Console.WriteLine(b);//prints the value of 
+                Console.WriteLine(b);//prints the value of b
                 Console.Title = String.Format("Calabrese#0001 - "+b);//changes the console title with the value of b
             }
             // --------------------------------------------------
