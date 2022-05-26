@@ -63,6 +63,7 @@ namespace Indietro
             //       ...
             //       replace return; with break;
             //    }
+            //    b--;
             // }
             for (long b = a; b <= a; b--)
             {
